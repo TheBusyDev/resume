@@ -112,7 +112,7 @@ h2 {
 /* Card container */
 .card {
     background: 
-        linear-gradient(to right, #ff6b6b18 0px, transparent 100%);
+        linear-gradient(to right, var(--bg-accent-color) 0px, transparent 100%);
     border: none;
     padding: 0.9em 1.2em;
     border-radius: 8px 8px 8px 8px;
