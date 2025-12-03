@@ -30,14 +30,18 @@ I am a graduate engineer from Politecnico di Milano (expected graduation at Marc
 </div>
 - **Website:** [www.polimimotorcyclefactory.it](https://www.polimimotorcyclefactory.it/) \
 - **Location:** Milan, MI, Italy \
-- **Skills:** CFD automation, `OpenFOAM`, `Python`, `ANSA`, `ParaView`.
+- **Skills:** CFD automation, `OpenFOAM`, `Python`, `ANSA`, `ParaView`, `MPI` cluster admin.
 - **Description:** 
 PMF is a racing team from Politecnico di Milano that designs two racing motorcycles,
 competing in [Moto3 championship](https://www.civ.tv/pilota/specialita-piloti/moto3/)
 and in Electric category at [Motostudent championship](https://www.motostudent.com/). \
 My job focused on <ins>automating the CFD process</ins>, from the mesh generation 
-(with `ANSA`) throughout the CFD simulation (using `OpenFOAM`) and the post-processing 
+(with `ANSA`) throughout the CFD simulation (using `OpenFOAM`) and the post-processing
 (involving data analysis with `ParaView`, `numpy`, `pandas` and `matplotlib`).
+I also configured and administered an `MPI` cluster, performing CFD simulations
+on multiple nodes!
+- **Courses:** *Introduction to CFD pre- & post-processing with ANSA/META*,
+issued by [BETA CAE](https://www.beta-cae.com/).
 
 </div>
 
@@ -79,7 +83,7 @@ Mechanics, Propulsion.
 
 <div class="card">
 
-### Scientific secondary school
+### Liceo Scientifico (secondary school)
 
 <div class="card-header">
 <div class="card-subtitle">IISS Iris Versari</div>
@@ -93,7 +97,7 @@ Mechanics, Propulsion.
 
 <div class="card">
 
-### Awards and Scholarships
+### Awards & Scholarships
 
 A list collecting the awards I received in my academic career is presented below.
 
@@ -103,11 +107,11 @@ A list collecting the awards I received in my academic career is presented below
 
 </div>
 
-## Computer skills
+## Computer Skills
 
 <div class="card">
 
-### Open-source contributions
+### Open-source Contributions
 
 My open-source contributions are all uploaded on my [GitHub page](https://github.com/TheBusyDev). The relevant contributions are presented below.
 
@@ -127,7 +131,7 @@ simulations, exploiting <ins>Deep-learning-based ROMs</ins> (to appear).
 
 <div class="card">
 
-### Programming/scripting languages
+### Programming Languages & Software
 
 - **Proficient in:** `C++` (up to `C++20`), `Python`, `Bash`, `MATLAB`.
 - **Python libraries:**
@@ -138,8 +142,13 @@ simulations, exploiting <ins>Deep-learning-based ROMs</ins> (to appear).
 [`scipy`](https://scipy.org/),
 [`gmsh`](https://gmsh.info/),
 [`fenics`](https://fenicsproject.org/).
+- **Experience in:**
+  - Packaging and distributing `Python` projects with `pip`.
+  - Development of `C++` software in `Linux` environment.
+  - Managing `MPI` clusters.
 - **Familiar with:** `C`
 - **Basic knowledge of:** `Java`
+- I use **Fedora Linux** as my daily driver!
 
 </div>
 
