@@ -24,7 +24,10 @@ I am a graduate engineer from Politecnico di Milano (expected graduation at Marc
 **Fluid Dynamics** and **CFD/numerical methods**. I have experience in both 
 **Finite Volume** and **Finite Element** simulations and coding in `C++` and
 `Python`. Some of my personal projects are visible at my
-[GitHub page](https://github.com/TheBusyDev).
+[GitHub page](https://github.com/TheBusyDev). \
+**Language skills:**
+<ins>English</ins> - C1 (TOEIC certificate: score 975/990),
+<ins>Italian</ins> - native speaker.
 </div>
 
 <!-- START TWO-COLUMN LAYOUT -->
