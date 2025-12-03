@@ -3,12 +3,17 @@ title: Pietro Businaro
 ---
 ### MSc. in Aeronautical Engineering
 
+<!-- My photo :) -->
+<img src="me.jpg" alt="TheBusyDev in disguise :)" class="profile-photo">
+
+<!-- My contacts -->
 <div class="contact-info">
 [pietro.businaro@outlook.com](maito:pietro.businaro@outlook.com) •
 [LinkedIn](https://www.linkedin.com/in/pietro-businaro) •
 [GitHub](https://github.com/TheBusyDev)
 </div>
 
+<!-- Introduction -->
 <div class="intro">
 I am a graduate engineer from Politecnico di Milano (expected graduation at March 
 2026). I pursued a Master's Degree in Aeronautical Engineering, focusing on 

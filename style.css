@@ -35,6 +35,17 @@ body {
     padding: 0;
 }
 
+/* My photo :) */
+.profile-photo {
+    position: absolute;
+    top: 0;
+    right: 0.5cm;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: 3px solid var(--accent-color);
+}
+
 /* Two-column layout for main content */
 .two-column {
     column-count: 2;
