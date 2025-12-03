@@ -20,15 +20,15 @@
 
 /* Page setup */
 @page {
-    margin: 0.5cm 0.5cm;
+    margin: 0.3cm 0.4cm;
     size: A4;
 }
 
 body {
     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 10pt;
+    font-size: 9pt;
+    line-height: 1.45;
     text-align: justify;
-    line-height: 1.5;
     color: var(--text-primary);
     max-width: 100%;
     margin: 0;
@@ -44,25 +44,22 @@ body {
 }
 
 /* Prevent elements from breaking across columns */
-.card,
-h2 {
+.card {
     break-inside: avoid;
-    page-break-inside: avoid;
 }
 
 /* Header - Name */
 h1 {
-    font-size: 28pt;
+    font-size: 26pt;
     font-weight: 700;
     color: var(--accent-color);
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 0 0.1em 0;
     letter-spacing: -0.5px;
 }
 
 /* Subtitle (Aeronautical Engineer) */
 .subtitle {
-    font-size: 12pt;
+    font-size: 11pt;
     color: var(--heading);
     font-weight: bolder;
     margin-top: 0;
@@ -71,10 +68,8 @@ h1 {
 
 /* Contact info container */
 .contact-info {
-    font-size: 9pt;
-    line-height: 1.4;
     color: var(--text-lighter);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .contact-info a {
@@ -92,10 +87,9 @@ h1 {
 
 /* Introduction paragraph */
 .intro {
-    font-size: 10pt;
-    line-height: 1.3;
+    font-size: 9.5pt;
     color: var(--text-secondary);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 /* Section headers (Experience, Education, etc.) */
@@ -115,7 +109,7 @@ h2 {
         linear-gradient(to right, var(--bg-accent-color) 0px, transparent 100%);
     border: none;
     padding: 0.9em 1.2em;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px;
     margin-bottom: 0.7em;
 }
 
@@ -147,16 +141,13 @@ h3 {
 /* Date range */
 .date {
     color: var(--text-light);
-    font-size: 9pt;
     text-align: right;
     margin: 0;
 }
 
 /* Card description */
 .card p {
-    font-size: 9pt;
     color: var(--text-secondary);
-    line-height: 1.4;
     margin: 0 0 0.6em 0;
 }
 
@@ -168,9 +159,7 @@ h3 {
 }
 
 .card ul li {
-    font-size: 9pt;
     color: var(--text-secondary);
-    line-height: 1.4;
     margin-bottom: 0.1em;
     position: relative;
     padding-left: 1.2em;
@@ -197,5 +186,5 @@ code {
     padding: 0.1em 0.2em;
     border-radius: 3px;
     font-family: 'Courier New';
-    font-size: 0.9em;
+    font-size: 0.95em;
 }
