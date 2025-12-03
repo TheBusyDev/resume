@@ -1,3 +1,4 @@
 [submodule "html"]
 	path = html
 	url = git@github.com:TheBusyDev/thebusydev.github.io.git
+	branch = main
