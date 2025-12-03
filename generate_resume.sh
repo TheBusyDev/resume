@@ -6,7 +6,7 @@ pandoc resume.md \
        --pdf-engine=weasyprint
 
 pandoc resume.md \
-       -o resume.html \
+       -o index.html \
        --css=style.css \
        --standalone
 
