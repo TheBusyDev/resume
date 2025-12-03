@@ -1,0 +1,201 @@
+/* Color palette */
+:root {
+    /* Primary accent color */
+    --accent-color: #ff6b6bff;
+    --bg-accent-color: #ff6b6b18;
+    
+    /* Text colors */
+    --text-primary: #333;
+    --text-secondary: #555;
+    --text-light: #999;
+    --text-lighter: #ccc;
+    
+    /* Heading colors */
+    --heading: #2d3748;
+
+    /* Code colors */
+    --code-bg-color: #dedede;
+    --code-color: #d63384;
+}
+
+/* Page setup */
+@page {
+    margin: 0.5cm 0.5cm;
+    size: A4;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: var(--text-primary);
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Two-column layout for main content */
+.two-column {
+    column-count: 2;
+    column-gap: 0.5cm;
+    column-rule: none; /* 1px solid #e2e8f0; */
+    margin-top: 0;
+}
+
+/* Prevent elements from breaking across columns */
+.card,
+h2 {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* Header - Name */
+h1 {
+    font-size: 28pt;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    letter-spacing: -0.5px;
+}
+
+/* Subtitle (Aeronautical Engineer) */
+.subtitle {
+    font-size: 12pt;
+    color: var(--heading);
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+}
+
+/* Contact info container */
+.contact-info {
+    font-size: 9pt;
+    line-height: 1.4;
+    color: var(--text-lighter);
+    margin-bottom: 1em;
+}
+
+.contact-info a {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.contact-info a:first-child {
+    margin-left: 0;
+}
+
+.contact-info a:last-child {
+    margin-right: 0;
+}
+
+/* Introduction paragraph */
+.intro {
+    font-size: 10pt;
+    line-height: 1.3;
+    color: var(--text-secondary);
+    margin-bottom: 0em;
+    text-align: justify;
+}
+
+/* Section headers (Experience, Education, etc.) */
+h2 {
+    font-size: 14pt;
+    font-weight: 700;
+    color: var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.25em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+/* Card container */
+.card {
+    background: 
+        linear-gradient(to right, #ff6b6b18 0px, transparent 100%);
+    border: none;
+    padding: 0.9em 1.2em;
+    border-radius: 8px 8px 8px 8px;
+    margin-bottom: 1em;
+}
+
+/* Card title */
+h3 {
+    font-size: 12pt;
+    font-weight: 700;
+    color: var(--heading);
+    margin: 0 0 0.4em 0;
+    line-height: 1.3;
+}
+
+/* Card header and date container */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5em;
+}
+
+/* Card sub-title (e.g. university) */
+.card-subtitle {
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 10pt;
+    margin: 0;
+}
+
+/* Date range */
+.date {
+    color: var(--text-light);
+    font-size: 9pt;
+    text-align: right;
+    margin: 0;
+}
+
+/* Card description */
+.card p {
+    font-size: 9pt;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    margin: 0 0 0.6em 0;
+}
+
+/* Skills/Tech list */
+.card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.card ul li {
+    font-size: 9pt;
+    color: var(--text-secondary);
+    line-height: 1.4;
+    margin-bottom: 0.1em;
+    position: relative;
+    padding-left: 1.2em;
+}
+
+.card ul li:before {
+    content: "★";
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    font-size: 8pt;
+}
+
+/* Links */
+a {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+/* Code snippets */
+code {
+    background-color: var(--code-bg-color);
+    color: var(--code-color);
+    padding: 0.1em 0.2em;
+    border-radius: 3px;
+    font-family: 'Courier New';
+    font-size: 0.9em;
+}
