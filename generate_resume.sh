@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pandoc resume.md \
-       -o resume.pdf \
+       -o Pietro_Businaro_resume.pdf \
        --css=style.css \
        --pdf-engine=weasyprint
 
