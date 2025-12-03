@@ -4,8 +4,8 @@ pagetitle: "Pietro Businaro"
 
 <!-- My photo :) -->
 <img src="me.jpg" alt="Pietro Businaro" class="profile-photo">
-<div class="name">Pietro Businaro</div>
-<div class="easter-egg">...aka TheBusyDev in disguise :)</div>
+<h1 class="name">Pietro Businaro</h1>
+<h1 class="easter-egg">...aka TheBusyDev in disguise :)</h1>
 
 ### MSc. in Aeronautical Engineering
 

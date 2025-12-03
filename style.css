@@ -29,7 +29,6 @@
         margin: 1cm auto;
         padding: 0 1cm;
         max-width: 21cm;
-        position: relative;
     }
 }
 
@@ -37,7 +36,6 @@
     body {
         margin: 0;
         padding: 0;
-        position: relative;
     }
 }
 
@@ -47,6 +45,7 @@ body {
     line-height: 1.45;
     text-align: justify;
     color: var(--text-primary);
+    position: relative;
 }
 
 /* My photo :) */
