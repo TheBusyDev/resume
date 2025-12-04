@@ -28,7 +28,7 @@ https://thebusydev.github.io/ 🤓
 
 🧑‍💻 This step relies on `pandoc`. You can simply call:
 ```
-./generate_resume.sh
+./generate.sh
 ```
 🚀 Once the `HTML` file is ready, you can deploy it using GitHub pages as follows:
 ```
