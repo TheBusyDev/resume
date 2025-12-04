@@ -30,8 +30,8 @@ I am a graduate engineer from Politecnico di Milano (expected graduation at Marc
 <ins>Italian</ins> - native speaker.
 </div>
 
-<!-- START TWO-COLUMN LAYOUT -->
-<div class="two-column">
+<!-- START CARDS CONTAINER -->
+<div class="cards-container">
 
 ## Experience
 
@@ -168,4 +168,4 @@ simulations, exploiting <ins>Deep-learning-based ROMs</ins> (to appear).
 </div>
 
 </div>
-<!-- END TWO-COLUMN LAYOUT -->
+<!-- END CARDS CONTAINER -->
