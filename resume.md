@@ -1,5 +1,5 @@
 ---
-pagetitle: "Pietro Businaro"
+pagetitle: "🧑‍💻 Pietro Businaro"
 ---
 
 <!-- My photo :) -->
@@ -13,8 +13,8 @@ pagetitle: "Pietro Businaro"
 <div class="contact-info">
 [pietro.businaro@outlook.com](maito:pietro.businaro@outlook.com) •
 [LinkedIn](https://www.linkedin.com/in/pietro-businaro) •
-[GitHub](https://github.com/TheBusyDev) •
-[My Website](https://thebusydev.github.io/)
+[github.com/TheBusyDev](https://github.com/TheBusyDev) •
+[Website](https://thebusydev.github.io/)
 </div>
 
 <!-- Introduction -->
